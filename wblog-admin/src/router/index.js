@@ -65,34 +65,6 @@ export const constantRoutes = [
       }
     ]
   },
-  {
-    path: '/channel/list/', // 因为只有一级菜单，所以这里不写，粒度细化到具体路由
-    hidden: true,
-    component: Layout,
-    meta: { title: '菜单管理', icon: 'menu' },
-    children: [
-      {
-        path: '/channel/edit/:id',
-        name: 'Edit',
-        component: () => import('@/views/channel/edit'),
-        meta: { title: '编辑', icon: 'form' }
-      }
-    ]
-  },
-  {
-    path: '/channel/list', // 上一级菜单URL
-    hidden: true,
-    component: Layout,
-    meta: { title: '菜单管理', icon: 'form' },
-    children: [
-      {
-        path: '/channel/add',
-        name: 'Add',
-        component: () => import('@/views/channel/add'),
-        meta: { title: '新增', icon: 'form' }
-      }
-    ]
-  },
 
   // 文章管理
   {

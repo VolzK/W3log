@@ -4,7 +4,7 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.wanzhk.api.modules.entity.TbUser;
+import com.wanzhk.api.modules.vo.UserVo;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,7 +41,7 @@ public class JwtUtils {
      * @param user 用户对象
      * @return Token
      */
-    public static String createToken(TbUser user) {
+    public static String createToken(UserVo user) {
         // 1.header：构建头部信息
         Map<String, Object> headerClaims = new HashMap<>();
         headerClaims.put("alg", "HS256"); // 加密算法

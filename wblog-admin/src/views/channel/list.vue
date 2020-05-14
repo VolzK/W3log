@@ -57,14 +57,14 @@
       <!--编辑-->
       <el-table-column label="操作" align="center" width="250" class-name="small-padding fixed-width">
         <template slot-scope="{row,$index}">
-          <el-button type="primary" size="mini" @click="handleEdit(row)">编辑</el-button>
+          <el-button type="primary" size="mini" @click="handleUpdate(row)">编辑</el-button>
 
           <el-button size="mini" type="danger" @click="handleDelete(row,$index)">删除</el-button>
         </template>
       </el-table-column>
     </el-table>
 
-    <!-- 新增弹出框Dialog -->
+    <!-- 修改弹出框Dialog -->
     <el-dialog title="新增" :visible.sync="dialogCreateFormVisible">
       <el-form
         ref="createForm"
@@ -93,14 +93,14 @@
       </el-form>
       <div slot="footer" class="dialog-footer">
         <el-button @click="dialogCreateFormVisible = false">取 消</el-button>
-        <el-button type="primary" @click="createChannel('createForm')">确 定</el-button>
+        <el-button type="primary" @click="createChannel('createForm')">添 加</el-button>
       </div>
     </el-dialog>
 
     <!-- 修改弹出框Dialog -->
-    <el-dialog title="修改" :visible.sync="dialogEditFormVisible">
+    <el-dialog title="修改" :visible.sync="dialogUpdateFormVisible">
       <el-form
-        ref="dataForm"
+        ref="updateForm"
         :model="channel"
         :rules="rules"
         label-position="left"
@@ -129,8 +129,8 @@
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
-        <el-button @click="dialogEditFormVisible = false">取 消</el-button>
-        <el-button type="primary" @click="create('dataForm')">确 定</el-button>
+        <el-button @click="dialogUpdateFormVisible = false">取 消</el-button>
+        <el-button type="primary" @click="updateChannel('updateForm')">确 定</el-button>
       </div>
     </el-dialog>
   </div>
@@ -186,7 +186,7 @@ export default {
         type: undefined,
         sort: "+id"
       },
-      dialogEditFormVisible: false,
+      dialogUpdateFormVisible: false,
       dialogCreateFormVisible: false
     };
   },
@@ -236,61 +236,73 @@ export default {
         }
       });
     },
-    // 新增
-    handleCreate: function() {
-      this.$router.push("/channel/add/");
-      // this.dialogCreateFormVisible = true;
+    resetTemp() {
+      this.channel = {
+        id: "",
+        name: "",
+        icon: "",
+        weight: "",
+        status: ""
+      };
     },
-    // 新增菜单
-    // createChannel(channel) {
-    //   this.$refs[channel].validate(valid => {
-    //     if (valid) {
-    //       createChannel(this.channel).then(response => {
-    //         if (20000 === response.code) {
-    //           // this.list.unshift(this.channel);
-    //           this.dialogCreateFormVisible = false;
+    // 新增
+    handleCreate: function(row) {
+      this.resetTemp();
+      this.dialogCreateFormVisible = true;
+      this.$nextTick(() => {
+        this.$refs["createForm"].clearValidate();
+      });
+      // this.$router.push("/channel/add/");
+    },
+    // 新增菜单 todo 添加后ID不刷新
+    createChannel(channel) {
+      this.$refs[channel].validate(valid => {
+        if (valid) {
+          createChannel(this.channel).then(response => {
+            if (20000 === response.code) {
+              // this.list.unshift(this.channel);
+              this.dialogCreateFormVisible = false;
+              this.fetchData(); // 再次请求刷新ID
+              this.$message({
+                message: "添加成功!",
+                type: "success"
+              });
+            } else {
+              this.$message({
+                message: response.message,
+                type: "error"
+              });
+            }
+          });
+        } else {
+          this.$message({
+            message: "错误的提交",
+            type: "error"
+          });
+          return false;
+        }
+      });
+    },
 
-    //           this.$message({
-    //             message: "添加成功!",
-    //             type: "success"
-    //           });
-    //           this.$router.push("/channel/list");
-    //         } else {
-    //           this.$message({
-    //             message: response.message,
-    //             type: "error"
-    //           });
-    //         }
-    //       });
-    //     } else {
-    //       this.$message({
-    //         message: "错误的提交",
-    //         type: "error"
-    //       });
-    //       return false;
-    //     }
-    //   });
-    // },
-
-    // 编辑
-    handleEdit: function(row) {
+    // 修改
+    handleUpdate: function(row) {
       fetchChannelById(row.id).then(response => {
         this.channel = response.data;
       });
-      this.dialogEditFormVisible = true;
+      this.dialogUpdateFormVisible = true;
     },
 
     // 更改
-    handleUpdate: function(channel) {
+    updateChannel: function(channel) {
       // 获取Dialog数据
       const tempData = Object.assign({}, this.channel);
-      this.$refs["dataForm"].validate(valid => {
+      this.$refs["updateForm"].validate(valid => {
         if (valid) {
           updateChannel(tempData).then(response => {
             if (20000 === response.code) {
               const index = this.list.findIndex(v => v.id === this.channel.id);
               this.list.splice(index, 1, this.channel);
-              this.dialogEditFormVisible = false;
+              this.dialogUpdateFormVisible = false;
               this.$notify({
                 title: "成功",
                 message: "更新成功",

@@ -44,10 +44,10 @@ public class ShiroConfig {
         Map<String, String> filterChainDefinitionMap = new LinkedHashMap<>();
 
         // 开放登陆接口
-        filterChainDefinitionMap.put("/login", "anon");
-        filterChainDefinitionMap.put("/register", "anon");
-        filterChainDefinitionMap.put("/forget", "anon");
-        filterChainDefinitionMap.put("/logout", "anon");
+        filterChainDefinitionMap.put("/user/login", "anon");
+        filterChainDefinitionMap.put("/user/register", "anon");
+        filterChainDefinitionMap.put("/user/forget", "anon");
+        filterChainDefinitionMap.put("/user/logout", "anon");
 
 
         // //用户，需要角色权限 “user”
@@ -59,7 +59,7 @@ public class ShiroConfig {
 
         //其余接口一律拦截
         //主要这行代码必须放在所有权限设置的最后，不然会导致所有 url 都被拦截
-        filterChainDefinitionMap.put("/**", "authc");
+        // filterChainDefinitionMap.put("/**", "authc");
 
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         System.out.println("Shiro拦截器工厂类注入成功");

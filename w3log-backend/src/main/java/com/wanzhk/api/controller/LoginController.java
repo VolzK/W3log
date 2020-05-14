@@ -1,6 +1,7 @@
 package com.wanzhk.api.controller;
 
 import com.wanzhk.api.core.AjaxResult;
+import com.wanzhk.api.utils.JwtUtils;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
@@ -29,7 +30,7 @@ public class LoginController extends BaseController {
      *
      * @param map 登录对象
      */
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
+    @RequestMapping(value = "/user/login", method = RequestMethod.POST)
     public AjaxResult login(@RequestBody Map<String, Object> map) {
         Map<String, Object> map1 = new HashMap<>();
         String username = (String) map.get("username");
@@ -43,8 +44,11 @@ public class LoginController extends BaseController {
             // 记住登录
             token.setRememberMe(rememberMe == null ? false : rememberMe);
             getSubject().login(token);
-            // map1.put("token", JwtUtils.createToken());
-            return AjaxResult.success("ok");
+
+
+            map1.put("token", JwtUtils.createToken(getLoginUserInfo()));
+
+            return AjaxResult.success("ok", map1);
         } catch (AuthenticationException e) {
             return AjaxResult.fail(e.getMessage());
         }
@@ -53,7 +57,7 @@ public class LoginController extends BaseController {
     /**
      * 注销
      */
-    @RequestMapping(value = "/logout", method = RequestMethod.GET)
+    @RequestMapping(value = "/user/logout", method = RequestMethod.GET)
     public AjaxResult logout() {
         Subject subject = SecurityUtils.getSubject();
         //注销

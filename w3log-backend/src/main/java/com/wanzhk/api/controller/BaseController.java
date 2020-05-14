@@ -1,5 +1,8 @@
 package com.wanzhk.api.controller;
 
+import cn.hutool.core.bean.BeanUtil;
+import com.wanzhk.api.modules.entity.TbUser;
+import com.wanzhk.api.modules.vo.UserVo;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 
@@ -28,5 +31,15 @@ public class BaseController {
         return getSubject().isAuthenticated();
     }
 
-
+    /**
+     * 获取登录信息
+     *
+     * @return
+     */
+    public UserVo getLoginUserInfo() {
+        TbUser tbUser = (TbUser) getSubject().getPrincipal();
+        UserVo userVo = new UserVo();
+        BeanUtil.copyProperties(tbUser, userVo);
+        return userVo;
+    }
 }

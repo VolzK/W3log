@@ -21,6 +21,7 @@ public class AjaxResult extends HashMap<String, Object> {
 
     public static final String DATA_TAG = "data";
 
+
     /**
      * 状态类型
      */
@@ -75,6 +76,7 @@ public class AjaxResult extends HashMap<String, Object> {
      * 数据对象
      */
     private Object data;
+
 
     /**
      * 初始化一个新创建的 AjaxResult 对象，使其表示一个空消息。
