@@ -1,4 +1,4 @@
-package com.wanzhk.api.config;
+package com.wanzhk.api.configurer;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import org.mybatis.spring.annotation.MapperScan;

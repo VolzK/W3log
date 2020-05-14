@@ -1,6 +1,6 @@
 package com.wanzhk.api.controller;
 
-import com.wanzhk.api.base.AjaxResult;
+import com.wanzhk.api.core.AjaxResult;
 import com.wanzhk.api.modules.entity.TbChannel;
 import com.wanzhk.api.service.ChannelService;
 import io.swagger.annotations.Api;

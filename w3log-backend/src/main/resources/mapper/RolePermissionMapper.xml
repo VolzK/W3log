@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wanzhk.api.mapper.RolePermissionMapper">
+
+    <select id="getPermissionIdsByRoleIds" resultType="java.lang.Integer">
+        select role_id
+        from  tb_role_permission
+        where  permission_id in
+        <foreach collection="roleIds" index="index" item="item" open='(' separator= ',' close=')'>
+            #{item}
+        </foreach>
+    </select>
+
+</mapper>

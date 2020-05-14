@@ -20,370 +20,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9e961dd-0764-4014-9f33-41b430301e85" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/W3log.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/ApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/base/AjaxResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/controller/ChannelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/mapper/ChannelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/modules/entity/TbArticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/modules/entity/TbChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/ChannelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/impl/ChannelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w3log-backend/src/test/java/com/wanzhk/api/ApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.env.staging" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.github/ISSUE_TEMPLATE/custom.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/build/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/imgs/demo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/mock/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/mock/mock-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/mock/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/mock/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/api/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/api/channel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/api/qiniu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/api/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/api/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/assets/404_images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/assets/404_images/404_cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/components/Breadcrumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/components/Hamburger/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/components/Pagination/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/components/SvgIcon/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/icons/svg/article.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/icons/svg/home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/icons/svg/list.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/icons/svg/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/icons/svg/permission.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/icons/svg/publish.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/icons/svgo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/components/AppMain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/components/Sidebar/Item.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/components/Sidebar/Link.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/components/Sidebar/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/layout/mixin/ResizeHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/store/modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/store/modules/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/store/modules/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/styles/element-ui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/styles/mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/styles/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/styles/transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/styles/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/utils/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/utils/get-page-title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/utils/scroll-to.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/utils/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/article/create.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/article/edit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/article/list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/channel/add.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/channel/edit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/channel/list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/dashboard/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/form/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/login/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/table/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/src/views/tree/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/tests/unit/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/tests/unit/components/Breadcrumb.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/tests/unit/components/Hamburger.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/tests/unit/utils/formatTime.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/tests/unit/utils/parseTime.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/tests/unit/utils/validate.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wblog-admin/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/VolzKBlog.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/ApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/base/AjaxResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/config/CorsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/config/MybatisPlusConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/config/Swagger2Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/controller/ArticleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/controller/BaseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/controller/ChannelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/mapper/ArticleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/mapper/ChannelMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/modules/entity/TbArticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/modules/entity/TbChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/service/ArticleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/service/ChannelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/service/impl/ArticleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/java/com/wanzhk/api/service/impl/ChannelServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-backend/src/test/java/com/wanzhk/api/ApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.env.development" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.env.staging" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.github/ISSUE_TEMPLATE/custom.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/build/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/imgs/demo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/mock/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/mock/mock-server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/mock/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/mock/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/api/article.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/api/channel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/api/qiniu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/api/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/api/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/assets/404_images/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/assets/404_images/404_cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/components/Breadcrumb/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/components/Hamburger/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/components/Pagination/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/components/SvgIcon/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/icons/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/icons/svg/article.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/icons/svg/home.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/icons/svg/list.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/icons/svg/menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/icons/svg/permission.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/icons/svg/publish.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/icons/svgo.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/components/AppMain.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/components/Navbar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/components/Sidebar/FixiOSBug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/components/Sidebar/Item.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/components/Sidebar/Link.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/components/Sidebar/Logo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/components/Sidebar/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/layout/mixin/ResizeHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/store/getters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/store/modules/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/store/modules/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/store/modules/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/styles/element-ui.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/styles/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/styles/mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/styles/sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/styles/transition.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/styles/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/utils/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/utils/get-page-title.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/utils/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/utils/scroll-to.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/utils/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/404.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/article/create.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/article/edit.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/article/list.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/channel/add.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/channel/edit.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/channel/list.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/dashboard/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/form/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/login/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/table/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/src/views/tree/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/tests/unit/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/tests/unit/components/Breadcrumb.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/tests/unit/components/Hamburger.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/tests/unit/components/SvgIcon.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/tests/unit/utils/formatTime.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/tests/unit/utils/parseTime.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/tests/unit/utils/validate.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolzKBlog-manage/vue.config.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Hunter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/configurer/TokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/configurer/shiro/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/configurer/shiro/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/configurer/shiro/ShiroSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/core/Contants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/mapper/RolePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/modules/entity/TbPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/modules/entity/TbRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/modules/entity/TbRolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/modules/entity/TbUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/modules/entity/TbUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/modules/vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/RolePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/impl/RolePermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/utils/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/utils/RegexpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/resources/mapper/RolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3log-backend/src/main/resources/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3log-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/w3log-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/base/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/core/AjaxResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/configurer/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/configurer/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/configurer/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/controller/ChannelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/w3log-backend/src/main/java/com/wanzhk/api/controller/ChannelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3log-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/w3log-backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3log-backend/src/test/java/com/wanzhk/api/ApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/w3log-backend/src/test/java/com/wanzhk/api/ApiApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,6 +98,15 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Mybatis Mapper" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -417,12 +129,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1brcRdCb9QjusLSxbwObpZKwlM4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="LombokPluginEnabledInProject" value="true" />
     <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
     <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
@@ -432,12 +148,16 @@
     <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
     <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/w3log-backend/src/main/resources/mapper" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -445,55 +165,34 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="W3log" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="W3log" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wanzhk.api.mapper" />
+      <recent name="com.wanzhk.api.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\W3log\w3log-backend\src\main\java\com\wanzhk\api\utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
+    <configuration name="ApiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="W3log-Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wanzhk.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wanzhk.api" />
+      <option name="MAIN_CLASS_NAME" value="com.wanzhk.api.ApiApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -505,6 +204,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -521,8 +225,17 @@
       <option name="presentableId" value="Default" />
       <updated>1589393645958</updated>
       <workItem from="1589393647870" duration="55000" />
-      <workItem from="1589394110447" duration="1466000" />
+      <workItem from="1589394110447" duration="2050000" />
+      <workItem from="1589426969855" duration="26659000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1589401046072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589401046072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,59 +251,112 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="746" height="261" key="GridCell.Tab.0.bottom" timestamp="1589394858681">
+    <state x="395" y="91" key="#Inspections" timestamp="1589429343517">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589394858681" />
-    <state width="746" height="261" key="GridCell.Tab.0.center" timestamp="1589394858681">
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1589429343517" />
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589450985888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589394858681" />
-    <state width="746" height="261" key="GridCell.Tab.0.left" timestamp="1589394858680">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589450985888" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1589451806023">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589394858680" />
-    <state width="746" height="261" key="GridCell.Tab.0.right" timestamp="1589394858681">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589451806023" />
+    <state width="426" height="466" key="DebuggerActiveHint" timestamp="1589453622886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589394858681" />
-    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1589394858682">
+    <state width="426" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1589453622886" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589450845253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589394858682" />
-    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1589394858682">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589450845253" />
+    <state x="579" y="313" key="Github.CreateGistDialog" timestamp="1589444655377">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589394858682" />
-    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1589394858682">
+    <state x="579" y="313" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1589444655377" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1589454291306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589394858682" />
-    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1589394858682">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589454291306" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1589454291305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589394858682" />
-    <state width="746" height="261" key="GridCell.Tab.2.bottom" timestamp="1589394858683">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589454291305" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1589454291305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589394858683" />
-    <state width="746" height="261" key="GridCell.Tab.2.center" timestamp="1589394858682">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589454291305" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1589454291306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1589394858682" />
-    <state width="746" height="261" key="GridCell.Tab.2.left" timestamp="1589394858682">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589454291306" />
+    <state width="1493" height="213" key="GridCell.Tab.1.bottom" timestamp="1589454290982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1589394858682" />
-    <state width="746" height="261" key="GridCell.Tab.2.right" timestamp="1589394858683">
+    <state width="1493" height="213" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589454290982" />
+    <state width="1493" height="213" key="GridCell.Tab.1.center" timestamp="1589454290974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1589394858683" />
+    <state width="1493" height="213" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589454290974" />
+    <state width="1493" height="213" key="GridCell.Tab.1.left" timestamp="1589454290971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589454290971" />
+    <state width="1493" height="213" key="GridCell.Tab.1.right" timestamp="1589454290977">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589454290977" />
+    <state width="1493" height="213" key="GridCell.Tab.2.bottom" timestamp="1589454290998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589454290998" />
+    <state width="1493" height="213" key="GridCell.Tab.2.center" timestamp="1589454290983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1589454290983" />
+    <state width="1493" height="213" key="GridCell.Tab.2.left" timestamp="1589454290983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1589454290983" />
+    <state width="1493" height="213" key="GridCell.Tab.2.right" timestamp="1589454290988">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1589454290988" />
+    <state x="14" y="43" key="MergeDialog" timestamp="1589401481278">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="14" y="43" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1589401481278" />
+    <state x="653" y="279" width="425" height="266" key="MultipleFileMergeDialog" timestamp="1589401492878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="653" y="279" width="425" height="266" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1589401492878" />
+    <state x="141" y="113" key="Vcs.Push.Dialog.v2" timestamp="1589401533052">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="141" y="113" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589401533052" />
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589440828466">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1589440828466" />
+    <state x="468" y="146" width="600" height="532" key="find.popup" timestamp="1589450245302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="146" width="600" height="532" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1589450245302" />
+    <state x="100" y="62" key="new project wizard" timestamp="1589443701009">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="62" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589443701009" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589435301777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589435301777" />
   </component>
 </project>

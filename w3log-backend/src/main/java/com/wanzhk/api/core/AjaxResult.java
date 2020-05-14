@@ -1,4 +1,6 @@
-package com.wanzhk.api.base;
+package com.wanzhk.api.core;
+
+import lombok.experimental.Accessors;
 
 import java.util.HashMap;
 
@@ -9,6 +11,7 @@ import java.util.HashMap;
  * <p>
  * 2020-05-08
  */
+@Accessors(chain = true)
 public class AjaxResult extends HashMap<String, Object> {
     private static final long serialVersionUID = 1L;
 
@@ -34,6 +37,10 @@ public class AjaxResult extends HashMap<String, Object> {
          * 警告
          */
         WARN(301),
+
+        // 401：没有提供认证信息。请求的时候没有带上 Token 等
+        UNAUTHORIZED(401),
+
         /**
          * 错误
          */
@@ -209,6 +216,11 @@ public class AjaxResult extends HashMap<String, Object> {
     public static AjaxResult error(String message, Object data) {
         return new AjaxResult(Type.ERROR, message, data);
     }
+
+    public static AjaxResult error(int code, String message) {
+        return new AjaxResult(Type.UNAUTHORIZED, message);
+    }
+
 
     public Type getType() {
         return type;

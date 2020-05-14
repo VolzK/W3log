@@ -1,7 +1,7 @@
 package com.wanzhk.api.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.wanzhk.api.base.AjaxResult;
+import com.wanzhk.api.core.AjaxResult;
 import com.wanzhk.api.modules.entity.TbArticle;
 import com.wanzhk.api.service.ArticleService;
 import io.swagger.annotations.Api;
